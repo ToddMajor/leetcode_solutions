@@ -1,6 +1,10 @@
 class Solution:
     def removeDuplicates(self, nums: List[int]) -> int:
+        '''
+        I plan to redo this problem since my run time was very slow. My mem usage was very low, but I think I could do better
+        The first if conditional in the while loop is cheesy and could be done to not have that
         
+        '''
         i = 0
 
         while (i < len(nums)):
